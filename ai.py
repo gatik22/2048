@@ -66,3 +66,4 @@ def expectiminimax(board, depth, dir = None):
             #a += 1.0/len(openTiles)*0.1*expectiminimax(board, depth - 0.5, dir)[0]
             board.addTile(addTileLoc, 0)
     return (a, dir)
+#gatikkaushik@gmail.com
