@@ -130,3 +130,4 @@ class Board:
                         and self.board[y][x] == self.board[y+dir[0]][x+dir[1]]:
                         return False
         return True
+    #model complete
